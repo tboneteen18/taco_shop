@@ -54,4 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'static_pages#home'
+  get '/whats-for-lunch'=> 'static_pages#lunch'
 end
